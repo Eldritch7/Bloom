@@ -1,4 +1,5 @@
 import Plant1 from "./Plant1";
+import Pot from "./Pot";
 import "./App.css";
 import react, { useState } from "react";
 
@@ -10,6 +11,7 @@ function App() {
       <header className="Bloom-Header">
         <Plant1 />
         <Plant1 />
+        <Pot />
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
