@@ -3,6 +3,6 @@ import PotImage from "../images/placeholderPot.png"
 
 export default function Pot() {
   return (
-<image src={PotImage}></image>
+<image src={PotImage} className="image"></image>
   );
 }

@@ -11,6 +11,7 @@ function App() {
       <header className="Bloom-Header">
         <Plant1 />
         <Plant1 />
+        <Plant1 />
         <Pot />
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
