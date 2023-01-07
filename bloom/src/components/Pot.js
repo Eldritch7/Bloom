@@ -1,8 +1,11 @@
 import react, {useState} from 'react';
 import PotImage from "../images/placeholderPot.png"
+import './Pot.scss';
 
 export default function Pot() {
   return (
-<image src={PotImage} className="image"></image>
+    <div className="potContainer"> 
+<img src={PotImage} className="potImage"></img>
+</div>
   );
 }
