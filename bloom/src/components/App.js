@@ -1,6 +1,6 @@
 import Plant1 from "./Plant1";
 import Pot from "./Pot";
-import "./App.css";
+import "./App.scss";
 import react, { useState } from "react";
 
 
@@ -9,24 +9,26 @@ function App() {
   return (
     <div className="App">
       <header className="Bloom-Header">
+        <div className="all-content">
+        <div className="topScrollBar">
+          <p>topScrollBar</p>
+        </div>
+        
+        <div className="mainContent">
+        <div className="side-bar-task-list">
+<p>side-bar-tastk-list!</p>
+        </div>
+          <div className="mainContent-content">
+        <Plant1 />
         <Plant1 />
         <Plant1 />
         <Plant1 />
         <Pot />
-        {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+        <Pot />
+        </div>
+        </div>
+        
+      </div>
       </header>
     </div>
   );
