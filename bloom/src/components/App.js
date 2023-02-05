@@ -1,5 +1,6 @@
 import Plant1 from "./Plant1";
 import Pot from "./Pot";
+import SidePlant from "./sidePlant";
 import "./App.scss";
 import react, { useState } from "react";
 
@@ -12,6 +13,7 @@ function App() {
         <div className="all-content">
         <div className="topScrollBar">
           <p>topScrollBar</p>
+          <SidePlant />
         </div>
         
         <div className="mainContent">
@@ -23,8 +25,7 @@ function App() {
         <Plant1 />
         <Plant1 />
         <Plant1 />
-        <Pot />
-        <Pot />
+        
         </div>
         </div>
         
