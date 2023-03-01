@@ -1,6 +1,6 @@
 import react, {useState} from 'react';
-import PotImage from "../images/Side_HC.jpg"
-import './Pot.scss';
+import PotImage from "../images/Original side plants copy 2.jpg"
+
 
 export default function SidePlant() {
   return (

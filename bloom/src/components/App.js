@@ -1,5 +1,5 @@
 import Plant1 from "./Plant1";
-import Pot from "./Pot";
+
 import SidePlant from "./sidePlant";
 import "./App.scss";
 import react, { useState } from "react";
@@ -18,7 +18,7 @@ function App() {
         
         <div className="mainContent">
         <div className="side-bar-task-list">
-<p>side-bar-tastk-list!</p>
+<p>side-bar-task-list!</p>
         </div>
           <div className="mainContent-content">
         <Plant1 />
@@ -27,6 +27,10 @@ function App() {
         <Plant1 />
         
         </div>
+        <div className="seed-sidebar">
+          <p>Seed-sidebar</p>
+        </div>
+
         </div>
         
       </div>
