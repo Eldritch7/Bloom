@@ -1,6 +1,7 @@
 import Plant1 from "./Plant1";
 import GoalItem from "./GoalItem";
 import SidePlant from "./sidePlant";
+import GoalList from "./GoalList";
 import "./App.scss";
 import react, { useState } from "react";
 
