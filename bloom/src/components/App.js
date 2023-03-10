@@ -20,7 +20,8 @@ function App() {
         <div className="mainContent">
         <div className="side-bar-task-list">
 <p>side-bar-task-list!</p>
-<GoalItem />
+<GoalList />
+
         </div>
           <div className="mainContent-content">
         <Plant1 />
