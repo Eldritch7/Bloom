@@ -8,12 +8,14 @@ import three from "../images/Resizing 3.jpg";
 import four from "../images/Resizing 4.jpg";
 import five from "../images/Resizing 5.jpg";
 
-let function getImageArray = {
-  let images = [];
-  return images;
-}
+
 //Component swaps through images on click
 export default function Plant1() {
+  const getImageArray = function () {
+    let images = [];
+    return images;
+  }
+  
   const [image, setImage] = useState(0);
   const images = [one, two, three, four, five];
   //fuction to loop the image
