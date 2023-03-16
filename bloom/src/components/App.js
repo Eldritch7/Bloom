@@ -20,64 +20,148 @@ import five2 from "../images/Blue5.jpg";
 
 
 //Mock Data
-let images = {
+//Tasks
+let tasks = {
   1: {
     id: 1,
-    plantType: "GreenHC",
+    goal_id: 1,
+    text: "Go running 30mins",
+    completed: false,
+    created_at: null
+  },
+  2: {
+    id: 2,
+    goal_id: 1,
+    text: "Stretching",
+    completed: false,
+    created_at: null
+  },
+  3: {
+    id: 3,
+    goal_id: 1,
+    text: "Push-ups",
+    completed: false,
+    created_at: null
+  },
+  4: {
+    id: 4,
+    goal_id: 2,
+    text: "Find reference",
+    completed: true,
+    created_at: null
+  },
+  5: {
+    id: 5,
+    goal_id: 2,
+    text: "sketch",
+    completed: true,
+    created_at: null
+  },
+  6: {
+    id: 6,
+    goal_id: 2,
+    text: "Ink",
+    completed: true,
+    created_at: null
+  },
+  7: {
+    id: 7,
+    goal_id: 2,
+    text: "Colour",
+    completed: true,
+    created_at: null
+  }
+}
+
+
+//Goals
+let goals = {
+  1: {
+    id: 1,
+    plant_type_id: 1,
+    goal_name: "Exercise",
+    is_active: true
+
+  },
+  2: {
+    id: 2,
+    plant_type_id: 2,
+    goal_name: "Draw a Plant",
+    is_active: false
+  }
+}
+//Plant Type
+let plant_type = {
+  1: {
+    id: 1,
+    plantName: 'Green Haworthia Cooperi'
+    
+  },
+  2: {
+    id: 2,
+    plantName: 'Blue Haworthia Cooperi'
+  }
+}
+
+//Plant Images
+let plant_images = {
+  1: {
+    id: 1,
+    plantType_id: 1,
     order: 1,
     image: one
   },
   2: {
     id: 2,
-    plantType: "GreenHC",
+    plantType_id: 1,
     order: 2,
     image: two
   },
   3: {
     id: 3,
-    plantType: "GreenHC",
+    plantType_id: 1,
     order: 3,
     image: three
   },
   4: {
     id: 4,
-    plantType: "GreenHC",
+    plantType_id: 1,
     order: 4,
     image: four
   },
   5: {
     id: 5,
-    plantType: "GreenHC",
+    plantType_id: 1,
     order: 5,
     image: five
   },
   6: {
     id: 6,
-    plantType: "BlueHC",
+    plantType_id: 2,
     order: 1,
     image: one
   },
   7: {
     id: 7,
-    plantType: "BlueHC",
+    plantType_id: 2,
     order: 2,
     image: two2
   },
   8: {
     id: 8,
-    plantType: "BlueHC",
+    plantType_id: 2,
     order: 3,
     image: three2
   },
   9: {
     id: 1,
-    plantType: "BlueHC",
+    plantType_id: 2,
     order: 4,
     image: four2
   },
   10: {
     id: 10,
-    plantType: "BlueHC",
+    plantType_id: 2,
     order: 5,
     image: five2
   }
